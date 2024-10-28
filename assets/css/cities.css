@@ -1,0 +1,82 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+#foodSection, #placeSection, #oddPlateSection, #evenPlateSection {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.city-item {
+  background-color: #ececec;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#foodSection h2 {
+  color: #c0392b;
+}
+
+#foodCities .city-item {
+  background-color: #f9e79f;
+  color: #c0392b;
+}
+
+#placeSection h2 {
+  color: #2980b9;
+}
+
+#placeCities .city-item {
+  background-color: #aed6f1;
+  color: #2980b9;
+}
+
+#oddPlateSection h2 {
+  color: #27ae60;
+}
+
+#oddPlateCities .city-item {
+  background-color: #a9dfbf;
+  color: #27ae60;
+}
+
+#evenPlateSection h2 {
+  color: #8e44ad;
+}
+
+#evenPlateCities .city-item {
+  background-color: #d7bde2;
+  color: #8e44ad;
+}
+
+
+.city-item {
+  transition: transform 0.3s;
+}
+
+.city-item:hover {
+  transform: scale(1.05);
+}
